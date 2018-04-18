@@ -2,18 +2,18 @@
 Python 2.7 raw socket ICMP ping to send a embedded message or a magic ping to an endpoint.
 
 # Usage 
-verbose_ping( <ip address>, <timeout seconds>, <number of pings to send>, <message to embed in data>)
+verbose_ping( ip address , timeout seconds, number of pings to send, message to embed in data)
 
 # Testing
 verbose_ping('192.168.218.1',2,4,'Hello From Ping!!!!!!!!!!!!!!!!!')
 
-
+```
 0000   00 50 56 c0 00 08 00 0c 29 25 75 dc 08 00 45 00  .PV.....)%u...E.
 0010   00 38 c8 35 40 00 40 01 3c ba c0 a8 da 82 c0 a8  .8.5@.@.<.......
 0020   da 01 08 00 95 a3 70 84 01 00 48 45 4c 4c 4f 20  ......p...HELLO 
 0030   46 52 4f 4d 20 50 49 4e 47 21 21 21 21 21 21 21  FROM PING!!!!!!!
 0040   21 21 21 21 21 21                                !!!!!!
-
+```
 
  Modified from the original source found here:
     https://gist.github.com/pklaus/856268
